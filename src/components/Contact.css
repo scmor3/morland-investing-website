@@ -10,15 +10,18 @@
   text-align: center;
 }
 
-.section-title {
+.contact .section-title {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
   color: var(--white);
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0;
 }
 
-.section-subtitle {
+.contact .section-subtitle {
   font-size: 1.2rem;
   margin-bottom: 3rem;
+  color: var(--white);
   opacity: 0.95;
   line-height: 1.7;
 }
@@ -100,11 +103,11 @@
     padding: 3rem 1.5rem;
   }
 
-  .section-title {
+  .contact .section-title {
     font-size: 2rem;
   }
 
-  .section-subtitle {
+  .contact .section-subtitle {
     font-size: 1.1rem;
   }
 

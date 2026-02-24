@@ -40,10 +40,19 @@
 
   .trust-bar-container {
     flex-direction: column;
+    align-items: flex-start;
     gap: 1rem;
   }
 
   .trust-item {
     font-size: 0.95rem;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .trust-icon {
+    flex-shrink: 0;
+    width: 1.5rem;
+    text-align: center;
   }
 }

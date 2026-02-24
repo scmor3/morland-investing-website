@@ -58,6 +58,8 @@
   gap: 1rem;
   transition: color 0.3s;
   font-family: 'Playfair Display', serif;
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0;
 }
 
 .faq-question:hover {
