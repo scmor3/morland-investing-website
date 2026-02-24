@@ -21,7 +21,7 @@ function Contact() {
     e.preventDefault()
     
     // Replace YOUR_FORM_ID with your Formspree form ID
-    const formspreeEndpoint = 'https://formspree.io/f/YOUR_FORM_ID'
+    const formspreeEndpoint = 'https://formspree.io/f/xdalykov'
     
     try {
       const response = await fetch(formspreeEndpoint, {
