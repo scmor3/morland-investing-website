@@ -24,6 +24,21 @@ function Testimonials() {
     <section id="testimonials" className="testimonials">
       <div className="testimonials-container">
         <h2 className="section-title">What Landowners Are Saying</h2>
+        
+        {/* Video Testimonial - Featured */}
+        <div className="video-testimonial-wrapper">
+          <div className="video-testimonial">
+            <iframe 
+              src="https://www.youtube.com/embed/RIm4lhQrigA" 
+              title="Customer Testimonial"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+
+        {/* Text Testimonials */}
         <div className="testimonials-grid">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="testimonial-card">

@@ -16,14 +16,17 @@
 }
 
 .steps-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 3rem;
 }
 
 .step-card {
   text-align: center;
   padding: 2rem;
+  flex: 1 1 280px;
+  max-width: 360px;
 }
 
 .step-number {

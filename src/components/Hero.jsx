@@ -14,19 +14,13 @@ function Hero() {
         <div className="hero-content">
           <div className="hero-video-section">
             <div className="hero-video-wrapper">
-              <div className="hero-video-placeholder">
-                <div className="play-icon">▶</div>
-                <p>Video coming soon</p>
-              </div>
-              {/* When ready, replace the placeholder with:
               <iframe 
-                src="YOUR_YOUTUBE_EMBED_URL" 
+                src="https://www.youtube.com/embed/In-Tf00-i6M" 
                 title="Mor Schlesinger Introduction"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
-              */}
             </div>
           </div>
           <div className="hero-text-section">
